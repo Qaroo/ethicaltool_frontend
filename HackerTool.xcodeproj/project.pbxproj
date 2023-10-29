@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1226B9A4BCAE701373AA1387 /* Pods_HackerToolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B976F965CD1EECCE621A39FB /* Pods_HackerToolTests.framework */; };
 		6502C87126E1266900961887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502C87026E1266900961887 /* AppDelegate.swift */; };
 		6502C87326E1266900961887 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502C87226E1266900961887 /* SceneDelegate.swift */; };
 		6502C87526E1266900961887 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502C87426E1266900961887 /* ViewController.swift */; };
@@ -16,6 +17,21 @@
 		6502C88026E1266E00961887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6502C87E26E1266E00961887 /* LaunchScreen.storyboard */; };
 		6502C88B26E1266F00961887 /* HackerToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502C88A26E1266F00961887 /* HackerToolTests.swift */; };
 		6502C89626E1266F00961887 /* HackerToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502C89526E1266F00961887 /* HackerToolUITests.swift */; };
+		652E946D2840998B00ADF3E8 /* ExplainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652E946C2840998B00ADF3E8 /* ExplainViewController.swift */; };
+		65592A4727D88F980074463A /* MitmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65592A4627D88F980074463A /* MitmViewController.swift */; };
+		65592A4927DE02070074463A /* BruteForceGenerateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65592A4827DE02070074463A /* BruteForceGenerateViewController.swift */; };
+		6596737E2797F51100360588 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6596737D2797F51100360588 /* GoogleService-Info.plist */; };
+		65A165F828507A7200F3B219 /* BruteForceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A165F728507A7200F3B219 /* BruteForceViewController.swift */; };
+		65A8927926E3EF2F00D25AA6 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8927826E3EF2F00D25AA6 /* ExternalAccessory.framework */; };
+		65A8927B26E3F6AA00D25AA6 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8927A26E3F6AA00D25AA6 /* NetworkExtension.framework */; };
+		65A8927D26E41FC800D25AA6 /* categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A8927C26E41FC800D25AA6 /* categories.swift */; };
+		65A8927F26E423EE00D25AA6 /* WifiScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A8927E26E423EE00D25AA6 /* WifiScanner.swift */; };
+		65C95687283E87B900786ABC /* FindCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C95686283E87B900786ABC /* FindCarViewController.swift */; };
+		65CB2FF2279FF08A00192ED0 /* SignUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CB2FF1279FF08A00192ED0 /* SignUPViewController.swift */; };
+		65CB2FF427A12E2200192ED0 /* PhishingLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CB2FF327A12E2200192ED0 /* PhishingLogViewController.swift */; };
+		65EB2C212708C0FD00E40EA0 /* CreaftPhishingSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB2C202708C0FD00E40EA0 /* CreaftPhishingSite.swift */; };
+		97B52AEC66F188A1B70A355A /* Pods_HackerTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B78A334B422B3BBB89A231B /* Pods_HackerTool.framework */; };
+		C3B7EF02266561832342EB2E /* Pods_HackerTool_HackerToolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535A45FAB185B9F8851D1EBA /* Pods_HackerTool_HackerToolUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		535A45FAB185B9F8851D1EBA /* Pods_HackerTool_HackerToolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerTool_HackerToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78A334B422B3BBB89A231B /* Pods_HackerTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6502C86D26E1266900961887 /* HackerTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6502C87026E1266900961887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6502C87226E1266900961887 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +69,27 @@
 		6502C89126E1266F00961887 /* HackerToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6502C89526E1266F00961887 /* HackerToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerToolUITests.swift; sourceTree = "<group>"; };
 		6502C89726E1266F00961887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652E946C2840998B00ADF3E8 /* ExplainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplainViewController.swift; sourceTree = "<group>"; };
+		65592A4627D88F980074463A /* MitmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MitmViewController.swift; sourceTree = "<group>"; };
+		65592A4827DE02070074463A /* BruteForceGenerateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForceGenerateViewController.swift; sourceTree = "<group>"; };
+		6596737D2797F51100360588 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65A165F728507A7200F3B219 /* BruteForceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForceViewController.swift; sourceTree = "<group>"; };
+		65A8927626E3EF2E00D25AA6 /* HackerTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HackerTool.entitlements; sourceTree = "<group>"; };
+		65A8927826E3EF2F00D25AA6 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		65A8927A26E3F6AA00D25AA6 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		65A8927C26E41FC800D25AA6 /* categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories.swift; sourceTree = "<group>"; };
+		65A8927E26E423EE00D25AA6 /* WifiScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiScanner.swift; sourceTree = "<group>"; };
+		65C95686283E87B900786ABC /* FindCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCarViewController.swift; sourceTree = "<group>"; };
+		65CB2FF1279FF08A00192ED0 /* SignUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPViewController.swift; sourceTree = "<group>"; };
+		65CB2FF327A12E2200192ED0 /* PhishingLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhishingLogViewController.swift; sourceTree = "<group>"; };
+		65EB2C202708C0FD00E40EA0 /* CreaftPhishingSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaftPhishingSite.swift; sourceTree = "<group>"; };
+		6605A60265D6E67D36A759FA /* Pods-HackerToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerToolTests.debug.xcconfig"; path = "Target Support Files/Pods-HackerToolTests/Pods-HackerToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7079141699BD3AEE287C3101 /* Pods-HackerTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTool.release.xcconfig"; path = "Target Support Files/Pods-HackerTool/Pods-HackerTool.release.xcconfig"; sourceTree = "<group>"; };
+		8B803B6FFC00B00386E5272F /* Pods-HackerToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerToolTests.release.xcconfig"; path = "Target Support Files/Pods-HackerToolTests/Pods-HackerToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		91E1C0886676C7A70CF9460B /* Pods-HackerTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTool.debug.xcconfig"; path = "Target Support Files/Pods-HackerTool/Pods-HackerTool.debug.xcconfig"; sourceTree = "<group>"; };
+		B20CC65946019FE2341D39C5 /* Pods-HackerTool-HackerToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTool-HackerToolUITests.release.xcconfig"; path = "Target Support Files/Pods-HackerTool-HackerToolUITests/Pods-HackerTool-HackerToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B976F965CD1EECCE621A39FB /* Pods_HackerToolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackerToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E843C32413A05CE079E5955B /* Pods-HackerTool-HackerToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackerTool-HackerToolUITests.debug.xcconfig"; path = "Target Support Files/Pods-HackerTool-HackerToolUITests/Pods-HackerTool-HackerToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65A8927926E3EF2F00D25AA6 /* ExternalAccessory.framework in Frameworks */,
+				65A8927B26E3F6AA00D25AA6 /* NetworkExtension.framework in Frameworks */,
+				97B52AEC66F188A1B70A355A /* Pods_HackerTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1226B9A4BCAE701373AA1387 /* Pods_HackerToolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B7EF02266561832342EB2E /* Pods_HackerTool_HackerToolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +126,12 @@
 			isa = PBXGroup;
 			children = (
 				6502C86F26E1266900961887 /* HackerTool */,
+				6596737D2797F51100360588 /* GoogleService-Info.plist */,
 				6502C88926E1266F00961887 /* HackerToolTests */,
 				6502C89426E1266F00961887 /* HackerToolUITests */,
 				6502C86E26E1266900961887 /* Products */,
+				65A8927726E3EF2F00D25AA6 /* Frameworks */,
+				861A3507535EE580DF6D6BA6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +148,8 @@
 		6502C86F26E1266900961887 /* HackerTool */ = {
 			isa = PBXGroup;
 			children = (
+				652E946C2840998B00ADF3E8 /* ExplainViewController.swift */,
+				65A8927626E3EF2E00D25AA6 /* HackerTool.entitlements */,
 				6502C87026E1266900961887 /* AppDelegate.swift */,
 				6502C87226E1266900961887 /* SceneDelegate.swift */,
 				6502C87426E1266900961887 /* ViewController.swift */,
@@ -109,6 +158,15 @@
 				6502C87E26E1266E00961887 /* LaunchScreen.storyboard */,
 				6502C88126E1266E00961887 /* Info.plist */,
 				6502C87926E1266900961887 /* HackerTool.xcdatamodeld */,
+				65A8927C26E41FC800D25AA6 /* categories.swift */,
+				65A8927E26E423EE00D25AA6 /* WifiScanner.swift */,
+				65EB2C202708C0FD00E40EA0 /* CreaftPhishingSite.swift */,
+				65CB2FF1279FF08A00192ED0 /* SignUPViewController.swift */,
+				65CB2FF327A12E2200192ED0 /* PhishingLogViewController.swift */,
+				65592A4627D88F980074463A /* MitmViewController.swift */,
+				65592A4827DE02070074463A /* BruteForceGenerateViewController.swift */,
+				65C95686283E87B900786ABC /* FindCarViewController.swift */,
+				65A165F728507A7200F3B219 /* BruteForceViewController.swift */,
 			);
 			path = HackerTool;
 			sourceTree = "<group>";
@@ -131,6 +189,31 @@
 			path = HackerToolUITests;
 			sourceTree = "<group>";
 		};
+		65A8927726E3EF2F00D25AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65A8927A26E3F6AA00D25AA6 /* NetworkExtension.framework */,
+				65A8927826E3EF2F00D25AA6 /* ExternalAccessory.framework */,
+				5B78A334B422B3BBB89A231B /* Pods_HackerTool.framework */,
+				535A45FAB185B9F8851D1EBA /* Pods_HackerTool_HackerToolUITests.framework */,
+				B976F965CD1EECCE621A39FB /* Pods_HackerToolTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		861A3507535EE580DF6D6BA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91E1C0886676C7A70CF9460B /* Pods-HackerTool.debug.xcconfig */,
+				7079141699BD3AEE287C3101 /* Pods-HackerTool.release.xcconfig */,
+				E843C32413A05CE079E5955B /* Pods-HackerTool-HackerToolUITests.debug.xcconfig */,
+				B20CC65946019FE2341D39C5 /* Pods-HackerTool-HackerToolUITests.release.xcconfig */,
+				6605A60265D6E67D36A759FA /* Pods-HackerToolTests.debug.xcconfig */,
+				8B803B6FFC00B00386E5272F /* Pods-HackerToolTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6502C89A26E1266F00961887 /* Build configuration list for PBXNativeTarget "HackerTool" */;
 			buildPhases = (
+				17DC1CE370E4DFF7DB8FC1AF /* [CP] Check Pods Manifest.lock */,
 				6502C86926E1266900961887 /* Sources */,
 				6502C86A26E1266900961887 /* Frameworks */,
 				6502C86B26E1266900961887 /* Resources */,
+				3E9F2C573104DB5FAA6CF868 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6502C89D26E1266F00961887 /* Build configuration list for PBXNativeTarget "HackerToolTests" */;
 			buildPhases = (
+				7A52E09BC26DBFA92175C0DA /* [CP] Check Pods Manifest.lock */,
 				6502C88226E1266F00961887 /* Sources */,
 				6502C88326E1266F00961887 /* Frameworks */,
 				6502C88426E1266F00961887 /* Resources */,
@@ -173,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6502C8A026E1266F00961887 /* Build configuration list for PBXNativeTarget "HackerToolUITests" */;
 			buildPhases = (
+				5D6DABAA356C59DE5EF3EF06 /* [CP] Check Pods Manifest.lock */,
 				6502C88D26E1266F00961887 /* Sources */,
 				6502C88E26E1266F00961887 /* Frameworks */,
 				6502C88F26E1266F00961887 /* Resources */,
+				E14474057CF4DD29CEDF43FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6502C88026E1266E00961887 /* LaunchScreen.storyboard in Resources */,
+				6596737E2797F51100360588 /* GoogleService-Info.plist in Resources */,
 				6502C87D26E1266E00961887 /* Assets.xcassets in Resources */,
 				6502C87826E1266900961887 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +345,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17DC1CE370E4DFF7DB8FC1AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E9F2C573104DB5FAA6CF868 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerTool/Pods-HackerTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerTool/Pods-HackerTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerTool/Pods-HackerTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D6DABAA356C59DE5EF3EF06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerTool-HackerToolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A52E09BC26DBFA92175C0DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HackerToolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14474057CF4DD29CEDF43FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerTool-HackerToolUITests/Pods-HackerTool-HackerToolUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HackerTool-HackerToolUITests/Pods-HackerTool-HackerToolUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HackerTool-HackerToolUITests/Pods-HackerTool-HackerToolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6502C86926E1266900961887 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -263,8 +455,18 @@
 			files = (
 				6502C87526E1266900961887 /* ViewController.swift in Sources */,
 				6502C87126E1266900961887 /* AppDelegate.swift in Sources */,
+				65CB2FF2279FF08A00192ED0 /* SignUPViewController.swift in Sources */,
+				65EB2C212708C0FD00E40EA0 /* CreaftPhishingSite.swift in Sources */,
+				652E946D2840998B00ADF3E8 /* ExplainViewController.swift in Sources */,
+				65A165F828507A7200F3B219 /* BruteForceViewController.swift in Sources */,
+				65C95687283E87B900786ABC /* FindCarViewController.swift in Sources */,
+				65CB2FF427A12E2200192ED0 /* PhishingLogViewController.swift in Sources */,
+				65A8927D26E41FC800D25AA6 /* categories.swift in Sources */,
 				6502C87326E1266900961887 /* SceneDelegate.swift in Sources */,
+				65592A4727D88F980074463A /* MitmViewController.swift in Sources */,
 				6502C87B26E1266900961887 /* HackerTool.xcdatamodeld in Sources */,
+				65A8927F26E423EE00D25AA6 /* WifiScanner.swift in Sources */,
+				65592A4927DE02070074463A /* BruteForceGenerateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,44 +639,53 @@
 		};
 		6502C89B26E1266F00961887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E1C0886676C7A70CF9460B /* Pods-HackerTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = HackerTool/HackerTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L6929RECK;
 				INFOPLIST_FILE = HackerTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.selllit.HackerTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilay.HackerTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6502C89C26E1266F00961887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7079141699BD3AEE287C3101 /* Pods-HackerTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
+				CODE_SIGN_ENTITLEMENTS = HackerTool/HackerTool.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3L6929RECK;
 				INFOPLIST_FILE = HackerTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.selllit.HackerTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ilay.HackerTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		6502C89E26E1266F00961887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6605A60265D6E67D36A759FA /* Pods-HackerToolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +708,7 @@
 		};
 		6502C89F26E1266F00961887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B803B6FFC00B00386E5272F /* Pods-HackerToolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +731,7 @@
 		};
 		6502C8A126E1266F00961887 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E843C32413A05CE079E5955B /* Pods-HackerTool-HackerToolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +752,7 @@
 		};
 		6502C8A226E1266F00961887 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20CC65946019FE2341D39C5 /* Pods-HackerTool-HackerToolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
